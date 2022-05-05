@@ -8,14 +8,13 @@ export default function Form() {
         netlify-honeypot="bot-field"
         data-netlify="true"
       >
-        <p className="hidden">
-          {/* style="display: none;" */}
+        <input type="hidden" name="form-name" value="contact" />
+        <p className="hidden"> 
           <label>
             Don’t fill this out if you’re human: <input name="bot-field" />
           </label>
         </p>
-        <div className="col-sm-6">
-          {/* <label className="visually-hidden" for="specificSizeInputName">Name</label> */}
+        <div className="col-sm-6"> 
           <input
             type="text"
             name="name"
@@ -24,8 +23,7 @@ export default function Form() {
             placeholder="Name"
           />
         </div>
-        <div className="col-sm-6">
-          {/* <label className="visually-hidden" for="specificSizeInputGroupUsername">Email</label> */}
+        <div className="col-sm-6"> 
           <div className="input-group">
             <input
               type="text"
