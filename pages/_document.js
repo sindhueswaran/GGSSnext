@@ -18,8 +18,8 @@ class MyDocument extends Document {
             })(window,document,'script','dataLayer', '${GTM_ID}');
           `,
             }}
-          /> 
-          <meta name="google-site-verification" content="google-site-verification=1gEVDlajuYNKTbkhZEzH64_StfGJ8F4PW3zV0Ys_uJ8"/>
+          />  
+          <meta name="google-site-verification" content="1gEVDlajuYNKTbkhZEzH64_StfGJ8F4PW3zV0Ys_uJ8" />
           
         </Head>
 
